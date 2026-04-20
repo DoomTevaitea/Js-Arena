@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 38, 0);
+    text-shadow: 1px 1px 10px red;
+}
+.portal {
+    text-align: center; /* centre le texte et les enfants */
+    padding: 20px;
+    background-color: black; /* optionnel */
+    border-radius: 50px;     /* optionnel */
+    box-shadow: 0 0 10px rgba(0,0,0,0.3); /* optionnel */
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    text-shadow: 0 0 5px rgb(255, 0, 0);
+}
+
+.portal div{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    width: 350px;
+    margin: auto;
+    border-radius: 12px;
+    box-shadow: 0 0 100px rgba(0,0,0,0.8);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.portal div label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.portal div input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.portal div button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.portal div button:hover {
+    background-color: #ff0101;
+    transform: scale(1.05);
+}
+canvas {
+    padding-top: 5px;
+    margin-top: 2rem;
+    border: 3px solid rgb(255, 0, 0);
+    background-color: #605151a8;
+    border-radius: 6px;
+}

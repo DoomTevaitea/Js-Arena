@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/portail.css">
+    <script src="portail.js" defer></script>
+    <title>TP5</title>
+</head>
+
+<body>
+    <div class="portal">
+
+    <h1>⚔️ JS Arena ⚔️</h1>
+
+    <div>
+        <label for="pseudo">Pseudo</label>
+        <input type="text" id="pseudo" placeholder="Entrez votre pseudo">
+        <label for="serverUrl">URL du Serveur</label>
+        <input
+            type="url"
+            id="serverUrl"
+            value="ws:10.45.31.53:8000/ws"
+        />
+
+        <button id="playBtn">Jouer</button>
+    </div>
+
+    <!-- Conteneur des images -->
+    <canvas id="game" width="350" height="400"></canvas>
+    </div>
+</body>
+</html>
